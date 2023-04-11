@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title> Membuat Form </title>
+    </head>
+    <body>
+        <table border="1" width="" height="30%" align="center">
+            <tr>
+                <td colspan="2" height="10" bgcolor="blue" valign="top">
+                    <font color="redorange">
+                    <h1 align="center"> Pendaftaran Kursus </h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" height="" bgcolor="grey" valign="top">
+                    <h2> Data Diri</h2>
+                    <table>
+                        <tr>
+                            <td> Nama </td>
+                            <td><input type="text" name="nama"> </td>
+                        </tr>
+                        <tr>
+                            <td> NIM </td>
+                            <td><input type="text" name="nim"> </td>
+                        </tr>
+                        <tr>
+                            <td> E-mail </td>
+                            <td><input type="email" name="email"> </td>
+                        </tr>
+                        <tr>
+                            <td> Tanggal Lahir </td>
+                            <td><input type="date" name="TL"> </td>
+                        </tr>
+                        <tr>
+                            <td> Jenis Kelamin </td>
+                            <td><input type="radio" name="sex"> Laki-laki
+                                <br>
+                                <input type="radio" name="sex"> Perempuan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Pilih Program Kursus </td>
+                            <td><input type="checkbox" name="PPK"> C#
+                                <br>
+                                <input type="checkbox" name="PPK"> Java
+                                <br>
+                                <input type="checkbox" name="PPK"> SQL
+                                <br>
+                                <input type="checkbox" name="PPK"> HTML dan PHP
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Pilih Hari/Jam Kursus </td>
+                            <td><input type="datetime-local" name="waktu"> </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"> Komentar Anda 
+                <br>
+                <textarea> </textarea>
+                <form>
+                    <input type="reset" value="Reset" name="Reset">
+                    <input type="submit" value="Submit" name="Submit">
+                    <input type="button" value="Cancel" name="Cancel">
+                </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
